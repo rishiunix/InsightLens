@@ -1,4 +1,4 @@
-# InsightLens 🔍
+# InsightLens 
 
 **Advanced Serverless AI/ML Multi-Modal Image Analysis Platform**
 
@@ -6,7 +6,7 @@ A production-ready serverless application that performs comprehensive AI analysi
 
 ![Architecture](https://img.shields.io/badge/AWS-Serverless-orange) ![Cost](https://img.shields.io/badge/Cost-$0--2%2Fmonth-green) ![AI](https://img.shields.io/badge/AI-Multi--Modal-blue)
 
-## 🌟 Features
+## Features
 
 ### AI-Powered Analysis
 - **Amazon Bedrock Claude 3 Sonnet**: Creative image descriptions, scene understanding, safety analysis
@@ -28,7 +28,7 @@ A production-ready serverless application that performs comprehensive AI analysi
 - **S3 Intelligent-Tiering**: Automatic storage cost optimization
 - **CloudFront CDN**: Global content delivery with caching
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐
@@ -78,7 +78,7 @@ A production-ready serverless application that performs comprehensive AI analysi
 └─────────────┴─────────────┘
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Prerequisites
 - AWS Account with appropriate permissions
@@ -122,7 +122,7 @@ aws s3 sync build/ s3://YOUR-WEBSITE-BUCKET-NAME --delete
 ### Step 5: Update Frontend API URL
 Edit `frontend/src/services/api.ts` and replace `API_BASE_URL` with your API Gateway URL from CDK outputs.
 
-## 💰 Cost Optimization
+## Cost Optimization
 
 ### Estimated Monthly Costs (Demo Usage)
 - **Lambda**: ~$0.20 (1M requests free tier)
@@ -140,7 +140,7 @@ Edit `frontend/src/services/api.ts` and replace `API_BASE_URL` with your API Gat
 - Lambda with optimized memory settings
 - CloudFront caching to reduce API calls
 
-## 🎨 Frontend Features
+## Frontend Features
 
 ### Vibrant UI Design
 - Gradient backgrounds with purple/pink theme
@@ -154,7 +154,7 @@ Edit `frontend/src/services/api.ts` and replace `API_BASE_URL` with your API Gat
 - **AnalysisResults**: Categorized AI insights display
 - **AnalysisHistory**: Browse previous analyses
 
-## 🔧 Advanced Enhancements
+## Advanced Enhancements
 
 ### Suggested Additions
 
@@ -191,7 +191,7 @@ Edit `frontend/src/services/api.ts` and replace `API_BASE_URL` with your API Gat
    - Custom moderation policies
    - Automated flagging system
 
-## 📊 Step Functions Workflow
+## Step Functions Workflow
 
 The state machine orchestrates the analysis pipeline:
 
@@ -200,7 +200,7 @@ The state machine orchestrates the analysis pipeline:
 3. **Error Handling**: Automatic retries with exponential backoff
 4. **Result Aggregation**: Combines all AI outputs into unified response
 
-## 🔐 Security Best Practices
+##  Security Best Practices
 
 - IAM least-privilege policies
 - S3 bucket encryption at rest
@@ -252,14 +252,14 @@ npm start
 - `cdk synth` - Emit synthesized CloudFormation template
 - `cdk destroy` - Remove all resources
 
-## 📈 Monitoring
+## Monitoring
 
 - CloudWatch Logs for all Lambda functions
 - X-Ray tracing for Step Functions
 - CloudWatch Metrics for API Gateway
 - S3 access logs for audit trail
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **E-commerce**: Product image analysis and categorization
 - **Social Media**: Content moderation and tagging
@@ -268,20 +268,6 @@ npm start
 - **Education**: Document digitization and analysis
 - **Media**: Automated image captioning and metadata
 
-## 🤝 Contributing
+## Contributing
 
 This is a showcase project demonstrating enterprise-grade serverless architecture. Feel free to fork and customize for your needs!
-
-## 📄 License
-
-MIT License - Feel free to use this project for learning and portfolio purposes.
-
-## 🌐 Live Demo
-
-Deploy this to your AWS account and share the CloudFront URL!
-
----
-
-**Built with ❤️ using AWS Serverless Services**
-
-*Perfect for showcasing your Solutions Architect expertise on LinkedIn!*
